@@ -42,7 +42,6 @@ graph TD
     class Service1,Service2,Service3,Service4 serviceStyle
     class DB1,DB2,DB3,DB4 dbStyle
 ```
-
 ## Diagram Arsitektur GraphQL sebagai API Gateway
 
 ```mermaid
@@ -91,5 +90,10 @@ graph TD
     class HTTP,gRPC,Message,DB protocolStyle
     class AuthService,UserService,ProductService,InventoryService,OrderService,PaymentService,ReportService serviceStyle
     class AuthDB,UserDB,ProductDB,InventoryDB,OrderDB,PaymentDB,DataWarehouse dbStyle
+```
+
+## Dokumentasi 
+[Streaming Replication di PostgreSQL 18]
+https://docs.google.com/document/d/16pr550iXJeCRc7XMylgILhoKEvzsgzM9e50mMRCD9u4/edit?usp=sharing
 
 
